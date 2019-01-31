@@ -2,9 +2,7 @@ body {
   font-family: 'Major Mono Display', monospace;
   overflow-x: hidden;
 }
-.headerTitle {
-  font-size: 6vw;
-}
+
 .header {
   margin-top: -5vw;
   background-color: #ababab;
@@ -13,4 +11,25 @@ body {
   margin-left: -3vw;
   padding-right: 3vw;
   margin-right: -3vw;
+}
+
+.headerTitle {
+  font-size: 8vw;
+}
+
+.headerTitleTwo {
+  margin-top: -6vw;
+  font-size: 6vw;
+}
+
+@media screen and (max-width: 480px) {
+  .headerTitleTwo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headerTitle {
+    font-size: 13vw;
+  }
 }
