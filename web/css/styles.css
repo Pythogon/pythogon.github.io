@@ -33,3 +33,10 @@ body {
     font-size: 13vw;
   }
 }
+.logo {
+  width: 10%;
+  height: 10%;
+  margin-bottom: -10vw;
+  position: relative;
+  right: 25vw;
+}
