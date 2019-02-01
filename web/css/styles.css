@@ -4,13 +4,11 @@ body {
 }
 
 .header {
-  margin-top: -5vw;
-  background-color: #ababab;
-  padding-top: 5vw;
+  border-radius: 25px;
+  background-color: #ff7f5b;
   padding-left: 3vw;
-  margin-left: -3vw;
   padding-right: 3vw;
-  margin-right: -3vw;
+  margin-bottom: -5vw;
 }
 
 .headerTitle {
@@ -22,13 +20,17 @@ body {
   font-size: 6vw;
 }
 
-@media screen and (max-width: 480px) {
+.headerTitlePew {
+  display: none;
+  font-size: 8vw;
+}
+@media screen and (max-width: 720px) {
   .headerTitleTwo {
     display: none;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   .headerTitle {
     font-size: 13vw;
   }
@@ -39,4 +41,19 @@ body {
   margin-bottom: -10vw;
   position: relative;
   right: 25vw;
+}
+@media screen and (max-width: 720px) {
+  .logo {
+
+  }
+}
+@media print and (min-width: 1px) {
+  .headerTitlePew {
+    display: block;
+  }
+}
+@media print and (min-width: 1px) {
+  .headerTitle {
+    display: none;
+  }
 }
