@@ -1,5 +1,5 @@
 function titleRandomiser() {
-  switch (Math.floor(Math.random() * Math.floor(100))) {
+  switch (Math.floor(Math.random() * Math.floor(25))) {
     default:
       response = 'Pythogon';
       break;
