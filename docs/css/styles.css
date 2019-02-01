@@ -25,13 +25,13 @@ body {
   font-size: 8vw;
 }
 @media screen and (max-width: 720px) {
-  .headerTitleTwo {
+  .subtitle {
     display: none;
   }
 }
 
 @media screen and (max-width: 720px) {
-  .headerTitle {
+  .title {
     font-size: 13vw;
   }
 }
@@ -53,7 +53,7 @@ body {
   }
 }
 @media print and (min-width: 1px) {
-  .headerTitle {
+  .title {
     display: none;
   }
 }
