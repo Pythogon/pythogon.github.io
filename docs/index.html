@@ -12,9 +12,20 @@
 <body onload="titleRandomiser()">
   <center>
     <div class="header">
-      <img src="images\logo.png" alt="Pythogon Logo" class="logo">
+      <img src="images\logo.png" alt="Pythogon Logo" class="logo" id="logo">
       <h1 class="title"><b><span id='titlechanger'>Pythogon Technologies</span></b></p>
-      <h2 class='subtitle'>Est. 2017-11-09</p>
+      <h2 class='subtitle'>Est. 2017-11-09</h2>
+      <button type="button" name="button" onclick="testFunction()">hey</button>
+      <div id="debug"></div>
+      <script>
+        function testFunction() {
+          var element = document.getElementById("debug");
+          element.classList.add("testClass");
+          var para = document.createElement("P");
+          para.appendChild(document.createTextNode("Paragraph!!"));
+          document.getElementById("debug").appendChild(para);
+        }
+      </script>
     </div>
   </center>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque et tellus sit amet mollis. Duis porttitor sem orci, a ullamcorper arcu pretium tempor. In eu dignissim ante, nec viverra leo. Curabitur lobortis eros nec magna tincidunt lacinia. Duis id arcu non erat consectetur dignissim. Duis ac sapien velit. Nam eget diam nec lacus finibus euismod molestie eu urna. Proin placerat diam sit amet interdum iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus nunc massa, volutpat sed interdum tristique, molestie in eros. Integer eu tortor ligula. Nunc risus nisl, euismod nec lacus quis.</p>

@@ -57,3 +57,6 @@ body {
     display: none;
   }
 }
+.testClass {
+  background-color: red;
+}
