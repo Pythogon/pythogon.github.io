@@ -7,13 +7,20 @@
   <link rel="stylesheet" href="css\styles.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <title>Pythogon | Home</title>
+  <script>
+  function titleRandomiser() {
+      var sub = Math.floor(Math.random() * Math.floor(10));
+      if(sub == 1) {
+          document.getElementById('titlechanger').innerHTML = 'Sub to PewDiePie';
+      }
+  }
+  </script>
 </head>
-<body>
+<body onload="titleRandomiser()">
   <center>
     <div class="header">
       <img src="images\logo.png" alt="Pythogon Logo" class="logo">
-      <p class="headerTitle"><b>Pythogon</b></p>
-      <p class="headerTitlePew"><b>Subscribe To Pewdiepie</b></p>
+      <p class="headerTitle"><b><span id='titlechanger'>Pythogon</span></b></p>
       <p class="headerTitle headerTitleTwo">Est. 2017-11-09</p>
     </div>
   </center>
