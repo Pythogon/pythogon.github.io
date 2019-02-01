@@ -1,7 +1,7 @@
 function titleRandomiser() {
   switch (Math.floor(Math.random() * Math.floor(25))) {
     default:
-      txt = 'Pythogon';
+      txt = 'Pythogon Technologies';
       break;
     case 1:
       txt = 'Sub to Pewds'

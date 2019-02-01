@@ -11,13 +11,13 @@ body {
   margin-bottom: -5vw;
 }
 
-.headerTitle {
-  font-size: 8vw;
+.title {
+  font-size: 7vw;
 }
 
-.headerTitleTwo {
+.subtitle {
   margin-top: -6vw;
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 .headerTitlePew {
@@ -40,7 +40,7 @@ body {
   height: 10%;
   margin-bottom: -10vw;
   position: relative;
-  right: 25vw;
+  right: 44vw;
 }
 @media screen and (max-width: 720px) {
   .logo {
