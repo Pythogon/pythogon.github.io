@@ -1,14 +1,14 @@
 function titleRandomiser() {
   switch (Math.floor(Math.random() * Math.floor(25))) {
     default:
-      response = 'Pythogon';
+      txt = 'Pythogon';
       break;
     case 1:
-      response = 'Sub to Pewds'
+      txt = 'Sub to Pewds'
       break;
     case 18:
-      response = 'Pytec 2: Electric Boogaloo'
+      txt = 'Pytec 2: Electric Boogaloo'
       break;
   }
-  document.getElementById('titlechanger').innerHTML = response;
+  document.getElementById('titlechanger').innerHTML = txt;
 }
