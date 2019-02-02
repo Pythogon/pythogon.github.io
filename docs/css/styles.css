@@ -30,7 +30,7 @@ body {
   height: 10%;
   margin-bottom: -5vw;
   position: relative;
-  right: 45vw;
+  right: 44vw;
 }
 
 @media screen and (max-width: 720px) {
@@ -57,12 +57,12 @@ body {
 }
 .infoBoxOne {
   background-color: #9bc1ff;
-  margin-top: -4.15vw;
+  margin-top: -4vw;
   border-radius: 15px;
   padding-top: 1vw;
 }
 .IBONE-aboutUs {
-  margin-top: -0.7vw;
+  margin-top: 1vw;
   font-size: 5vw;
 }
 
