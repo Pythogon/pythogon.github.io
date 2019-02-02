@@ -9,6 +9,9 @@ function strand() {
     case 2:
       txt = 'Pytec 2: Electric Boogaloo' // Type 2
       break; // Add more witty banter cases if you'd like
+    case 3:
+      txt = '<s>Pytex</s> Pyrex'
+      break;
   }
   document.getElementById('stc').innerHTML = txt; // Sending to index.html
 }
