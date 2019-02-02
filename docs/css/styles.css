@@ -16,7 +16,7 @@ body {
 }
 
 .subtitle {
-  margin-top: -6vw;
+  margin-top: -4.7vw;
   font-size: 5vw;
 }
 
@@ -24,39 +24,34 @@ body {
   display: none;
   font-size: 8vw;
 }
+
+.logo {
+  width: 10%;
+  height: 10%;
+  margin-bottom: -5vw;
+  position: relative;
+  right: 45vw;
+}
+
 @media screen and (max-width: 720px) {
   .subtitle {
     display: none;
   }
-}
-
-@media screen and (max-width: 720px) {
   .title {
     font-size: 13vw;
   }
-}
-.logo {
-  width: 10%;
-  height: 10%;
-  margin-bottom: -10vw;
-  position: relative;
-  right: 44vw;
-}
-@media screen and (max-width: 720px) {
   .logo {
-
+    right: 0;
+    width: 17%;
+    height: 17%;
   }
 }
-@media print and (min-width: 1px) {
+
+@media print {
   .headerTitlePew {
     display: block;
   }
-}
-@media print and (min-width: 1px) {
   .title {
     display: none;
   }
-}
-.testClass {
-  background-color: red;
 }
