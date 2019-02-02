@@ -1,14 +1,14 @@
 function strand() {
-  switch (Math.floor(Math.random() * Math.floor(25))) {
+  switch (Math.floor(Math.random() * Math.floor(25))) { // Generating num between 0 and 24
     default:
-      txt = 'Est. 2017-11-09';
+      txt = 'Est. 2017-11-09'; // Default text
       break;
     case 1:
-      txt = 'Subscribe to Pewdiepie'
+      txt = 'Subscribe to Pewdiepie' // Type 1
       break;
     case 2:
-      txt = 'Pytec 2: Electric Boogaloo'
-      break;
+      txt = 'Pytec 2: Electric Boogaloo' // Type 2
+      break; // Add more witty banter cases if you'd like
   }
-  document.getElementById('stc').innerHTML = txt;
+  document.getElementById('stc').innerHTML = txt; // Sending to index.html
 }
