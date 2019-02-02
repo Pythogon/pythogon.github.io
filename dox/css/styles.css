@@ -67,19 +67,27 @@ body {
   border-radius: 15px;
   padding-top: 1vw;
   width: 92%;
+  margin-bottom: 1vw;
 }
 .IBONE-welcome {
   margin-top: 1vw;
   font-size: 5vw;
-  padding-top: 2vw;
 }
 
 .IBONE-sectionOne {
   margin-top: -4vw;
-  opacity: 0.7;
   width: 90%;
-  border-radius: 5px;
 }
 .testingSpacer {
   line-height: 500px;
+}
+.infoBoxTwo {
+  border-radius: 15px;
+  background-color: #e495f9;
+  width: 92%;
+}
+.IBTWO-portfolio {
+  margin-top: 1vw;
+  font-size: 5vw;
+  padding-top: 2vw;
 }
