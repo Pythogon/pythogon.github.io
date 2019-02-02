@@ -48,6 +48,9 @@ body {
     width: 17%;
     height: 17%;
   }
+  .IBONE-sectionOne {
+    font-size: 5vw;
+  }
 }
 
 @media print {
