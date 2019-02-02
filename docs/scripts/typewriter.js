@@ -1,5 +1,5 @@
 var i = 0;
-var text = 'PyTec Hub'
+var text = 'Pythogon Hub'
 var speed = 100
 
 function typewriter() {
