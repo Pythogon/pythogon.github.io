@@ -20,7 +20,7 @@ body {
   font-size: 5vw;
 }
 
-.headerTitlePew {
+.supersecrettitle {
   display: none;
   font-size: 8vw;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 @media print {
-  .headerTitlePew {
+  .supersecrettitle {
     display: block;
   }
   .title {
