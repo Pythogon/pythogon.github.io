@@ -105,3 +105,24 @@ body {
   text-decoration: underline;
   transition-duration: 0.3s;
 }
+.IBTWO-projects-t {
+  border-radius: 10px;
+  background-color: #fff;
+  width: 20vw;
+  height: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 5vw;
+}
+.IBTWO-projects-b {
+  border-radius: 10px;
+  background-color: #fff;
+  width: 20vw;
+  height: 20vw;
+  margin-left: 20vw;
+  margin-bottom: 5vw;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
