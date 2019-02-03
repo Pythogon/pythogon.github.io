@@ -8,6 +8,16 @@ body {
   line-height: 500px;
 }
 
+a {
+  text-decoration: none;
+  color: #ff7f5b;
+  transition-duration: 0.3s;
+}
+a:hover {
+  color: #ff4d1c;
+  text-decoration: underline;
+  transition-duration: 0.3s;
+}
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
 /*                      Top                      */
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
@@ -96,17 +106,6 @@ body {
   width: 90%;
 }
 
-.IBONE-gitLink {
-  text-decoration: none;
-  color: #ff7f5b;
-  transition-duration: 0.3s;
-}
-.IBONE-gitLink:hover {
-  color: #ff4d1c;
-  text-decoration: underline;
-  transition-duration: 0.3s;
-}
-
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
 /*                   Section 2                   */
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
@@ -151,10 +150,27 @@ body {
   margin-left: 20vw;
   margin-bottom: 5vw;
 }
+
 .flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.IBTWO-projects-download {
+  opacity: 0;
+  transition-duration: 0.3s;
+  width: 20vw;
+  height: 20vw;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  right: 0;
+  border-radius: 10px;
+}
+
+
+.IBTWO-projects-download:hover {
+  opacity: 1;
 }
 
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
