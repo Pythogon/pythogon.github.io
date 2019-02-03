@@ -95,3 +95,13 @@ body {
   margin-top: -4vw;
   width: 90%;
 }
+.IBONE-gitLink {
+  text-decoration: none;
+  color: #ff7f5b;
+  transition-duration: 0.3s;
+}
+.IBONE-gitLink:hover {
+  color: #ff4d1c;
+  text-decoration: underline;
+  transition-duration: 0.3s;
+}
