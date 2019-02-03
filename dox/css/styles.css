@@ -121,6 +121,15 @@ body {
   font-size: 5vw;
   padding-top: 2vw;
 }
+.IBTWO-featured, .IBTWO-allProjects {
+  font-size: 3vw;
+}
+.IBTWO-projBG {
+  padding-top: 5vw;
+  background-color: rgba(238,238,238,0.2);
+  border-radius: 10px;
+
+}
 .IBTWO-sectionOne {
   margin-top: -4vw;
   width: 90%;
