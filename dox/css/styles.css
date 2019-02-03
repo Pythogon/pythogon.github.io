@@ -4,6 +4,14 @@ body {
   font-size: 1.75vw;
 }
 
+.testingSpacer {
+  line-height: 500px;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+/*                      Top                      */
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+
 .header {
   border-radius: 25px;
   background-color: #ff7f5b;
@@ -36,6 +44,10 @@ body {
   right: 44vw;
 }
 
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+/*                   Media tags                  */
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+
 @media screen and (max-width: 720px) {
   .subtitle {
     display: none;
@@ -61,6 +73,11 @@ body {
     display: none;
   }
 }
+
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+/*                   Section 1                   */
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+
 .infoBoxOne {
   background-color: #9bc1ff;
   margin-top: -4vw;
@@ -78,9 +95,22 @@ body {
   margin-top: -4vw;
   width: 90%;
 }
-.testingSpacer {
-  line-height: 500px;
+
+.IBONE-gitLink {
+  text-decoration: none;
+  color: #ff7f5b;
+  transition-duration: 0.3s;
 }
+.IBONE-gitLink:hover {
+  color: #ff4d1c;
+  text-decoration: underline;
+  transition-duration: 0.3s;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+/*                   Section 2                   */
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+
 .infoBoxTwo {
   border-radius: 15px;
   background-color: #e495f9;
@@ -95,16 +125,7 @@ body {
   margin-top: -4vw;
   width: 90%;
 }
-.IBONE-gitLink {
-  text-decoration: none;
-  color: #ff7f5b;
-  transition-duration: 0.3s;
-}
-.IBONE-gitLink:hover {
-  color: #ff4d1c;
-  text-decoration: underline;
-  transition-duration: 0.3s;
-}
+
 .IBTWO-projects-t {
   border-radius: 10px;
   background-color: #fff;
@@ -127,6 +148,10 @@ body {
   justify-content: center;
 }
 
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+/*                   Scrollbar                   */
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -146,6 +171,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* Handle on click */
 ::-webkit-scrollbar-thumb:active {
   background: #333;
 }
