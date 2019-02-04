@@ -18,6 +18,11 @@ a:hover {
   text-decoration: underline;
   transition-duration: 0.3s;
 }
+
+#bant {
+  margin-top: 1vw;
+}
+
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
 /*                      Top                      */
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
