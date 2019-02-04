@@ -1,1 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
+title: Pythogon Technologies
+description: PyTec creates Python, HTML and JS projects.
+show_downloads: true
