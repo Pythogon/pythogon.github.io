@@ -1,5 +1,5 @@
 function strand() {
-  switch (Math.floor(Math.random() * Math.floor(25))) { // Generating num between 0 and 24
+  switch (Math.floor(Math.random() * 25 + 1)) { // Generating num between 1 and 25
     default:
       txt = 'Est. 2017-11-09'; // Default text
       break;
