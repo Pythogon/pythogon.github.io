@@ -104,6 +104,7 @@ a:hover {
 .IBONE-sectionOne {
   margin-top: -4vw;
   width: 90%;
+  padding-bottom: 4vw;
 }
 
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
@@ -114,6 +115,7 @@ a:hover {
   border-radius: 15px;
   background-color: #e495f9;
   width: 92%;
+  padding-bottom: 3vw;
 }
 .IBTWO-portfolio {
   margin-top: 1vw;
@@ -131,6 +133,9 @@ a:hover {
 }
 .IBTWO-sectionOne {
   margin-top: -4vw;
+  width: 90%;
+}
+.IBTWO-sectionTwo {
   width: 90%;
 }
 
