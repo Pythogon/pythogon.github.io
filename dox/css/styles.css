@@ -32,6 +32,8 @@ a:hover {
   margin-left: 96vw;
   margin-top: 46vw;
   transition-duration: 0.15s;
+  opacity: 0;
+  cursor: default;
 }
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
 /*                      Top                      */
