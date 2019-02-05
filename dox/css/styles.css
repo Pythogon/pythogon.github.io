@@ -201,7 +201,7 @@ a:hover {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0.5vw;
 }
 
 /* Track */
@@ -212,6 +212,7 @@ a:hover {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
+  border-radius: 3px;
 }
 
 /* Handle on hover */
@@ -222,4 +223,5 @@ a:hover {
 /* Handle on click */
 ::-webkit-scrollbar-thumb:active {
   background: #333;
+  border-radius: 10px;
 }
