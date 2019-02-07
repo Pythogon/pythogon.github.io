@@ -37,6 +37,17 @@ a:hover {
   z-index: 1;
 }
 
+.fa-bars {
+  color: white;
+  font-size: 150%;
+  float: right;
+  margin-top: 2vw;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+/*                    Sidebar                    */
+/* ||||||||||||||||||||||||||||||||||||||||||||| */
+
 .sidebar {
   float: right;
   position: fixed;
@@ -51,12 +62,11 @@ a:hover {
   border-radius: 25px;
   transition-duration: 0.2s;
   /*remove after*/ width: 0;
-}
-.fa-bars {
-  color: white;
-  font-size: 150%;
-  float: right;
-  margin-top: 2vw;
+  animation-duration: 4s;
+  animation-name: sidebarOpen;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+  white-space: nowrap;
 }
 
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
@@ -96,7 +106,7 @@ a:hover {
 }
 
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
-/*                   Media tags                  */
+/*                    Media tags                 */
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
 
 @media screen and (max-width: 720px) {
