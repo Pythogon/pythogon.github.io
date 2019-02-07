@@ -30,11 +30,35 @@ a:hover {
   padding: 0.5vw;
   position: fixed;
   margin-left: 96vw;
-  margin-top: 46vw;
+  margin-top: 90vh;
   transition-duration: 0.15s;
   opacity: 0;
   cursor: default;
+  z-index: 1;
 }
+
+.sidebar {
+  float: right;
+  position: fixed;
+  animation-play-state: paused;
+  background-color: #aaa;
+  height: 100%;
+  z-index: 1;
+  margin-top: -1.1vw;
+  margin-left: -0.4vw;
+  padding-bottom: 1.1vw;
+  right: 0;
+  border-radius: 25px;
+  transition-duration: 0.2s;
+  /*remove after*/ width: 0;
+}
+.fa-bars {
+  color: white;
+  font-size: 150%;
+  float: right;
+  margin-top: 2vw;
+}
+
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
 /*                      Top                      */
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
@@ -213,6 +237,7 @@ a:hover {
 ::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 3px;
+  position: absolute;
 }
 
 /* Handle on hover */
