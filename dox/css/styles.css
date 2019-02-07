@@ -52,9 +52,9 @@ a:hover {
   float: right;
   position: fixed;
   animation-play-state: paused;
-  background-color: #aaa;
+  background-color: #ffbc70;
   height: 100%;
-  z-index: 1;
+  z-index: 2;
   margin-top: -1.1vw;
   margin-left: -0.4vw;
   padding-bottom: 1.1vw;
@@ -68,7 +68,14 @@ a:hover {
   animation-fill-mode: forwards;
   white-space: nowrap;
 }
-
+.sidebar-close {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  visibility: hidden;
+  cursor: pointer;
+}
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
 /*                      Top                      */
 /* ||||||||||||||||||||||||||||||||||||||||||||| */
